@@ -18,20 +18,17 @@ if sys.version_info < (3, 5):
 _PACKAGES = find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"])
 
 _INSTALL_REQUIRES = [
-    "pylint-plugin-utils>=0.2.6",
-    "pylint-celery==0.3",
-    "pylint-flask==0.6",
-    "requirements-detector>=0.6",
+    "pylint-plugin-utils",
+    "requirements-detector",
     "setoptconf>=0.2.0",
-    "dodgy>=0.1.9",
+    "dodgy",
     "pyyaml",
-    "mccabe>=0.5.0",
-    "pyflakes<2.3.0,>=2.2.0",
-    "pycodestyle<2.7.0,>=2.6.0",
-    "pep8-naming>=0.3.3,<=0.10.0",
-    "pydocstyle>=2.0.0",
+    "mccabe",
+    "pyflakes",
+    "pycodestyle",
+    "pep8-naming",
+    "pydocstyle",
     "pylint",
-    "pylint-django<2.2.0",
     "astroid",
 ]
 
